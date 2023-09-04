@@ -10,8 +10,8 @@ public class No65 {
         numbers.add(40);
         numbers.add(50);
         
-        int fromIndex = 1; // Index of the starting element to extract
-        int toIndex = 4;   // Index of the element after the last element to extract
+        int fromIndex = 1;
+        int toIndex = 4;
         
         if (fromIndex >= 0 && toIndex <= numbers.size() && fromIndex <= toIndex) {
             ArrayList<Integer> extractedPortion = new ArrayList<>(numbers.subList(fromIndex, toIndex));
